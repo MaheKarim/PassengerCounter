@@ -32,3 +32,8 @@ button {
 #save-btn {
     background: yellow;
 }
+
+#reload-btn {
+    background: darkred;
+    color: white;
+}

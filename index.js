@@ -27,3 +27,6 @@
 		 countEl.textContent = 0
 		 count = 0
 	 }
+	 function reload() {
+		 window.location.reload();
+	 }
