@@ -1,14 +1,13 @@
-
-	let countEl = document.getElementById("count-el");
-	let saveEl = document.getElementById("save-el");
-	let count = 0;
-
-	function increment() {
-	count += 1;
-	countEl.textContent = count;
-	}
-
-	function save() {
-	let countStr = count + " - "
-	saveEl.textContent += countStr
-	}
+	 let countEl = document.getElementById("count-el")
+	 let count = 0
+	 
+	 function increment() {
+		 count +=  1
+		 countEl.textContent = count
+	 }
+	 
+	 let saveEl = document.getElementById("save-el")
+	 function save() {
+		 let saveString = count + "  -  "
+		 saveEl.innerText += saveString;
+	 }
